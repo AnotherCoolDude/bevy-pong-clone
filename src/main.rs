@@ -58,7 +58,7 @@ fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {
 	commands.insert_resource(WindowDescriptor {
 		width: 1280,
 		height: 720,
-		title: "pong clone".to_string(),
+		title: "pong clone #2".to_string(),
 		vsync: true,
 		resizable: true,
 		..Default::default()
